@@ -4,7 +4,7 @@
 odoo.define('base_export_security', function(require){
     'use strict';
 
-    var Model = require('web.Model');
+    var rpc = require('web.rpc');
     var ListView = require('web.ListView');
     var core = require('web.core');
 
