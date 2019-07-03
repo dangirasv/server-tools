@@ -4,13 +4,13 @@
 {
     "name": "Export Security",
     "summary": "Security features for Odoo exports",
-    "version": "10.0.1.0.0",
+    "version": "12.0.1.0.0",
     "category": "Extra Tools",
     "website": "https://laslabs.com/",
     "author": "LasLabs, Odoo Community Association (OCA)",
     "license": "LGPL-3",
     "application": False,
-    "installable": False,
+    "installable": True,
     "depends": [
         "mail",
         "web",
